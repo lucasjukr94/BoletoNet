@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("GerarBoleto", "Home", FormMethod.Post))
+{
+    <button type="submit">Gerar Boleto</button>
+}
