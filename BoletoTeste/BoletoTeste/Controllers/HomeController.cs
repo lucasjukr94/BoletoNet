@@ -54,7 +54,7 @@ namespace BoletoTeste.Controllers
             boleto.EspecieDocumento = especieSantander;
 
             BoletoBancario boletoBancario = new BoletoBancario();
-            boletoBancario.CodigoBanco = 341;
+            boletoBancario.CodigoBanco = 33;
             boletoBancario.Boleto = boleto;
             boletoBancario.MostrarCodigoCarteira = true;
             boletoBancario.Boleto.Valida();
